@@ -7,7 +7,7 @@ func TestSourTaste(t *testing.T) {
 
 	taste := sours.Taste()
 
-	if taste != "Sweet" {
-		t.Fatal(`Expected: "Sweet", Got:`, taste)
+	if taste != "Sour" {
+		t.Fatal(`Expected: "Sour", Got:`, taste)
 	}
 }
